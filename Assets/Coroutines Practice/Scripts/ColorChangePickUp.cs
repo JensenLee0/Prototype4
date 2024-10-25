@@ -45,7 +45,7 @@ public class ColorChangePickUp : MonoBehaviour
     IEnumerator ColourReset()
     {
         yield return new WaitForSeconds(duration);
-        playerMr.material = default;
+        playerMr.material = defaultMaterial;
         myCollider.enabled = true;
     }
 }
